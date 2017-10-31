@@ -1,0 +1,738 @@
+# depslib dependency file v1.0
+1508472311 source:c:\users\tyler.sand12\desktop\game\main.cpp
+	<SDL_timer.h>
+	"Field.h"
+	<glew.h>
+	<glut.h>
+	<windows.h>
+	<sys/time.h>
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<sal.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\begin_code.h
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\close_code.h
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<mbarrier.h>
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<mmintrin.h>
+	<mm3dnow.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109970 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1506109971 c:\users\tyler.sand12\documents\dev_libs\sdl2-2.0.6\i686-w64-mingw32\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1451803973 c:\users\tyler.sand12\documents\dev_libs\sdl2_image-2.0.1\i686-w64-mingw32\include\sdl2\sdl_image.h
+	"SDL.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1489748292 source:c:\users\tyler.sand12\desktop\game\controller.cpp
+	"Controller.h"
+	"Model.h"
+
+1489748292 c:\users\tyler.sand12\desktop\game\controller.h
+	"Includes.h"
+
+1489748292 c:\users\tyler.sand12\desktop\game\includes.h
+
+1489748292 c:\users\tyler.sand12\desktop\game\model.h
+	"Includes.h"
+	"Player.h"
+	"Field.h"
+	"Controller.h"
+	"View.h"
+
+1489748292 c:\users\tyler.sand12\desktop\game\player.h
+	"Includes.h"
+	"Coord.h"
+
+1489748292 c:\users\tyler.sand12\desktop\game\coord.h
+
+1489748292 c:\users\tyler.sand12\desktop\game\field.h
+	"Includes.h"
+
+1489748292 c:\users\tyler.sand12\desktop\game\view.h
+	"Includes.h"
+	"Cleanup.h"
+
+1508434561 c:\users\tyler.sand12\desktop\game\cleanup.h
+	<memory>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<stdexcept>
+	<sstream>
+
+1454366533 c:\users\tyler.sand12\documents\dev_libs\sdl2_ttf-2.0.14\i686-w64-mingw32\include\sdl2\sdl_ttf.h
+	"SDL.h"
+	"begin_code.h"
+	"close_code.h"
+
+1489748292 source:c:\users\tyler.sand12\desktop\game\field.cpp
+	"Field.h"
+	<algorithm>
+
+1489748292 source:c:\users\tyler.sand12\desktop\game\model.cpp
+	"Model.h"
+
+1508436003 source:c:\users\tyler.sand12\desktop\game\player.cpp
+	"Player.h"
+	"Field.h"
+
+1508436690 source:c:\users\tyler.sand12\desktop\game\view.cpp
+	"View.h"
+	"Cleanup.h"
+	"Field.h"
+	<cassert>
+
+1501503939 c:\users\tyler.sand12\documents\dev_libs\glew-2.1.0\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+902955272 c:\users\tyler.sand12\documents\dev_libs\glut-3.7\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1066740114 c:\users\tyler.sand12\documents\dev_libs\freeglut-3.0.0\include\gl\glut.h
+	"freeglut_std.h"
+
+1413566904 c:\users\tyler.sand12\documents\dev_libs\freeglut-3.0.0\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\animated_sprite.cpp
+	"animated_sprite.h"
+	"game.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\animated_sprite.h
+	"sprite.h"
+	"timer.h"
+	"units.h"
+
+1508863765 c:\users\tyler.sand12\desktop\game\src\sprite.h
+	<chrono>
+	<string>
+	<SDL.h>
+	"vector.h"
+	"units.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\vector.h
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\units.h
+	<cmath>
+	"config.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\config.h
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\timer.h
+	<chrono>
+	<set>
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\game.h
+	<chrono>
+	<memory>
+	"damage_texts.h"
+	"graphics.h"
+	"particle_system.h"
+	"sdlengine.h"
+	"units.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\damage_texts.h
+	<chrono>
+	<map>
+	<memory>
+	"units.h"
+
+1508860714 c:\users\tyler.sand12\desktop\game\src\graphics.h
+	<SDL.h>
+	<map>
+	<string>
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\particle_system.h
+	<chrono>
+	<memory>
+	<set>
+	"units.h"
+
+1508471581 c:\users\tyler.sand12\desktop\game\src\sdlengine.h
+	<SDL.h>
+	<stdexcept>
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\backdrop.cpp
+	"backdrop.h"
+	"game.h"
+	"units.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\backdrop.h
+	<string>
+	"graphics.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\config.cpp
+	"config.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\damage_text.cpp
+	<cmath>
+	"damage_text.h"
+	"number_sprite.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\damage_text.h
+	<chrono>
+	"timer.h"
+	"vector.h"
+	"units.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\number_sprite.h
+	<memory>
+	<vector>
+	"sprite.h"
+	"units.h"
+	"vector.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\damage_texts.cpp
+	"damage_texts.h"
+	"damageable.h"
+	"damage_text.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\damageable.h
+	<memory>
+	"units.h"
+	"vector.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\first_cave_bat.cpp
+	<string>
+	"animated_sprite.h"
+	"first_cave_bat.h"
+	"graphics.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\first_cave_bat.h
+	<chrono>
+	"damageable.h"
+	"damage_text.h"
+	"vector.h"
+	"units.h"
+	"rectangle.h"
+	"sprite_state.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\rectangle.h
+	"units.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\sprite_state.h
+	<map>
+	<memory>
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\game.cpp
+	"player.h"
+	"damage_texts.h"
+	"first_cave_bat.h"
+	"game.h"
+	"input.h"
+	"map.h"
+	"particle_tools.h"
+	"projectile.h"
+	"timer.h"
+
+1508792179 c:\users\tyler.sand12\desktop\game\src\player.h
+	<chrono>
+	"damageable.h"
+	"damage_text.h"
+	"number_sprite.h"
+	"motion_type.h"
+	"polar_star.h"
+	"sprite.h"
+	"sprite_state.h"
+	"stride_type.h"
+	"timer.h"
+	"units.h"
+	"varying_width_sprite.h"
+	"vector.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\motion_type.h
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\polar_star.h
+	<chrono>
+	<vector>
+	"projectile.h"
+	"rectangle.h"
+	"sprite_state.h"
+	"units.h"
+	"vector.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\projectile.h
+	"rectangle.h"
+	"units.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\stride_type.h
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\varying_width_sprite.h
+	"sprite.h"
+
+1508471596 c:\users\tyler.sand12\desktop\game\src\input.h
+	<SDL.h>
+	<map>
+
+1508547928 c:\users\tyler.sand12\desktop\game\src\map.h
+	<chrono>
+	<memory>
+	<vector>
+	"backdrop.h"
+	"units.h"
+	"player.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\particle_tools.h
+	"graphics.h"
+	"particle_system.h"
+
+1508860840 source:c:\users\tyler.sand12\desktop\game\src\graphics.cpp
+	<stdexcept>
+	<SDL.h>
+	<SDL_image.h>
+	"graphics.h"
+	"game.h"
+	"IMGLOAD.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\head_bump_particle.cpp
+	"head_bump_particle.h"
+	"rand.h"
+	<iostream>
+	<utility>
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\head_bump_particle.h
+	<chrono>
+	"particle.h"
+	"polar_vector.h"
+	"sprite.h"
+	"timer.h"
+	"units.h"
+	"vector.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\particle.h
+	<chrono>
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\polar_vector.h
+	"units.h"
+	"vector.h"
+
+1498672774 c:\users\tyler.sand12\desktop\game\src\rand.h
+	<random>
+	"units.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\input.cpp
+	"input.h"
+
+1508519200 source:c:\users\tyler.sand12\desktop\game\src\main.cpp
+	"game.h"
+	<iostream>
+	"IMGLOAD.h"
+
+1508761512 source:c:\users\tyler.sand12\desktop\game\src\map.cpp
+	"map.h"
+	"game.h"
+	"graphics.h"
+	"rectangle.h"
+	"sprite.h"
+	"vector.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\motion_type.cpp
+	"motion_type.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\number_sprite.cpp
+	<cassert>
+	<string>
+	"number_sprite.h"
+	"sprite.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\particle_system.cpp
+	"particle_system.h"
+	"particle.h"
+
+1508860911 source:c:\users\tyler.sand12\desktop\game\src\player.cpp
+	<cassert>
+	<cmath>
+	<stdio.h>
+	"player.h"
+	"animated_sprite.h"
+	"number_sprite.h"
+	"graphics.h"
+	"game.h"
+	"head_bump_particle.h"
+	"map.h"
+	"particle_tools.h"
+	"rectangle.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\player_health.cpp
+	"player.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\player_walking_animation.cpp
+	"player.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\polar_star.cpp
+	<string>
+	"map.h"
+	"polar_star.h"
+	"sprite.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\polar_vector.cpp
+	"polar_vector.h"
+
+1508864194 source:c:\users\tyler.sand12\desktop\game\src\sprite.cpp
+	"sprite.h"
+	"graphics.h"
+	"sprite.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\sprite_state.cpp
+	"sprite_state.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\stride_type.cpp
+	"stride_type.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\timer.cpp
+	"timer.h"
+
+1498672774 source:c:\users\tyler.sand12\desktop\game\src\varying_width_sprite.cpp
+	"varying_width_sprite.h"
+
+1508518125 source:c:\users\tyler.sand12\desktop\game\src\imgload.cpp
+	"IMGLOAD.h"
+
+1508519143 c:\users\tyler.sand12\desktop\game\src\imgload.h
+	<SDL.h>
+	<SDL_image.h>
+
+1508864825 source:c:\users\tyler.sand12\documents\30_scrolling\30_scrolling.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
+

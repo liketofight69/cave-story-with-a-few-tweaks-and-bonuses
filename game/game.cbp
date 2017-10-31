@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="game" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/SDL2-2.0.6/i686-w64-mingw32/include/SDL2" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/SDL2_image-2.0.1/i686-w64-mingw32/include/SDL2" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/SDL2_ttf-2.0.14/i686-w64-mingw32/include/SDL2" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/glew-2.1.0/include/GL" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/freeglut-3.0.0/include/GL" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/SDL2-2.0.6/i686-w64-mingw32/lib" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/SDL2_image-2.0.1/i686-w64-mingw32/lib" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/SDL2_ttf-2.0.14/i686-w64-mingw32/lib" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/glut-3.7/lib/glut" />
+					<Add directory="C:/Users/Tyler.sand12/Documents/dev_libs/glew-2.1.0/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/game" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename=".gitignore" />
+		<Unit filename=".travis.yml" />
+		<Unit filename=".ycm_extra_conf.py" />
+		<Unit filename="Includes.h" />
+		<Unit filename="Jamfile" />
+		<Unit filename="LICENSE" />
+		<Unit filename="LICENSE.jpeg.txt" />
+		<Unit filename="LICENSE.png.txt" />
+		<Unit filename="LICENSE.tiff.txt" />
+		<Unit filename="LICENSE.webp.txt" />
+		<Unit filename="LICENSE.zlib.txt" />
+		<Unit filename="Makefile" />
+		<Unit filename="README.md" />
+		<Unit filename="SDL2.dll" />
+		<Unit filename="SDL2_image.dll" />
+		<Unit filename="SDL2_ttf.dll" />
+		<Unit filename="bg.png" />
+		<Unit filename="bin/Debug/front.png" />
+		<Unit filename="bin/Debug/lay.png" />
+		<Unit filename="bin/Debug/sprite.png" />
+		<Unit filename="content/original_graphics/Arms.pbm" />
+		<Unit filename="content/original_graphics/Bullet.pbm" />
+		<Unit filename="content/original_graphics/Caret.pbm" />
+		<Unit filename="content/original_graphics/MyChar.pbm" />
+		<Unit filename="content/original_graphics/NpcCemet.pbm" />
+		<Unit filename="content/original_graphics/PrtCave.pbm" />
+		<Unit filename="content/original_graphics/TextBox.pbm" />
+		<Unit filename="content/original_graphics/bkBlue.pbm" />
+		<Unit filename="dot.bmp" />
+		<Unit filename="game.depend" />
+		<Unit filename="game.layout" />
+		<Unit filename="glew32.dll" />
+		<Unit filename="glewinfo.exe" />
+		<Unit filename="import_steam_bitmaps.sh" />
+		<Unit filename="lay.png" />
+		<Unit filename="libfreetype-6.dll" />
+		<Unit filename="libjpeg-9.dll" />
+		<Unit filename="libpng16-16.dll" />
+		<Unit filename="libtiff-5.dll" />
+		<Unit filename="libwebp-4.dll" />
+		<Unit filename="obj/Debug/Documents/30_scrolling/30_scrolling.o" />
+		<Unit filename="obj/Debug/src/IMGLOAD.o" />
+		<Unit filename="obj/Debug/src/animated_sprite.o" />
+		<Unit filename="obj/Debug/src/backdrop.o" />
+		<Unit filename="obj/Debug/src/config.o" />
+		<Unit filename="obj/Debug/src/damage_text.o" />
+		<Unit filename="obj/Debug/src/damage_texts.o" />
+		<Unit filename="obj/Debug/src/first_cave_bat.o" />
+		<Unit filename="obj/Debug/src/game.o" />
+		<Unit filename="obj/Debug/src/graphics.o" />
+		<Unit filename="obj/Debug/src/head_bump_particle.o" />
+		<Unit filename="obj/Debug/src/input.o" />
+		<Unit filename="obj/Debug/src/main.o" />
+		<Unit filename="obj/Debug/src/map.o" />
+		<Unit filename="obj/Debug/src/motion_type.o" />
+		<Unit filename="obj/Debug/src/number_sprite.o" />
+		<Unit filename="obj/Debug/src/particle_system.o" />
+		<Unit filename="obj/Debug/src/player.o" />
+		<Unit filename="obj/Debug/src/player_health.o" />
+		<Unit filename="obj/Debug/src/player_walking_animation.o" />
+		<Unit filename="obj/Debug/src/polar_star.o" />
+		<Unit filename="obj/Debug/src/polar_vector.o" />
+		<Unit filename="obj/Debug/src/sprite.o" />
+		<Unit filename="obj/Debug/src/sprite_state.o" />
+		<Unit filename="obj/Debug/src/stride_type.o" />
+		<Unit filename="obj/Debug/src/timer.o" />
+		<Unit filename="obj/Debug/src/varying_width_sprite.o" />
+		<Unit filename="problems/Problem1.md" />
+		<Unit filename="problems/Problem10.md" />
+		<Unit filename="problems/Problem11.md" />
+		<Unit filename="problems/Problem12.md" />
+		<Unit filename="problems/Problem13.md" />
+		<Unit filename="problems/Problem14.md" />
+		<Unit filename="problems/Problem15.md" />
+		<Unit filename="problems/Problem16.md" />
+		<Unit filename="problems/Problem17.md" />
+		<Unit filename="problems/Problem18.md" />
+		<Unit filename="problems/Problem19.md" />
+		<Unit filename="problems/Problem20.md" />
+		<Unit filename="problems/Problem21.md" />
+		<Unit filename="problems/Problem22.md" />
+		<Unit filename="problems/Problem23.md" />
+		<Unit filename="problems/Problem24.md" />
+		<Unit filename="problems/Problem25.md" />
+		<Unit filename="problems/Problem26.md" />
+		<Unit filename="problems/Problem27.md" />
+		<Unit filename="problems/Problem28.md" />
+		<Unit filename="problems/Problem29.md" />
+		<Unit filename="problems/Problem3.md" />
+		<Unit filename="problems/Problem30.md" />
+		<Unit filename="problems/Problem31.md" />
+		<Unit filename="problems/Problem32.md" />
+		<Unit filename="problems/Problem33.md" />
+		<Unit filename="problems/Problem34.md" />
+		<Unit filename="problems/Problem35.md" />
+		<Unit filename="problems/Problem36.md" />
+		<Unit filename="problems/Problem37.md" />
+		<Unit filename="problems/Problem38.md" />
+		<Unit filename="problems/Problem39.md" />
+		<Unit filename="problems/Problem4.md" />
+		<Unit filename="problems/Problem40.md" />
+		<Unit filename="problems/Problem41.md" />
+		<Unit filename="problems/Problem42.md" />
+		<Unit filename="problems/Problem43.md" />
+		<Unit filename="problems/Problem5.md" />
+		<Unit filename="problems/Problem6.md" />
+		<Unit filename="problems/Problem7.md" />
+		<Unit filename="problems/Problem8.md" />
+		<Unit filename="problems/Problem9.md" />
+		<Unit filename="src/IMGLOAD.cpp" />
+		<Unit filename="src/IMGLOAD.h" />
+		<Unit filename="src/Jamfile" />
+		<Unit filename="src/SDL2.dll" />
+		<Unit filename="src/SDL2_image.dll" />
+		<Unit filename="src/SDL2_ttf.dll" />
+		<Unit filename="src/animated_sprite.cpp" />
+		<Unit filename="src/animated_sprite.h" />
+		<Unit filename="src/backdrop.cpp" />
+		<Unit filename="src/backdrop.h" />
+		<Unit filename="src/config.cpp" />
+		<Unit filename="src/config.h" />
+		<Unit filename="src/damage_text.cpp" />
+		<Unit filename="src/damage_text.h" />
+		<Unit filename="src/damage_texts.cpp" />
+		<Unit filename="src/damage_texts.h" />
+		<Unit filename="src/damageable.h" />
+		<Unit filename="src/first_cave_bat.cpp" />
+		<Unit filename="src/first_cave_bat.h" />
+		<Unit filename="src/game.cpp" />
+		<Unit filename="src/game.h" />
+		<Unit filename="src/graphics.cpp" />
+		<Unit filename="src/graphics.h" />
+		<Unit filename="src/head_bump_particle.cpp" />
+		<Unit filename="src/head_bump_particle.h" />
+		<Unit filename="src/input.cpp" />
+		<Unit filename="src/input.h" />
+		<Unit filename="src/libfreetype-6.dll" />
+		<Unit filename="src/libjpeg-9.dll" />
+		<Unit filename="src/libpng16-16.dll" />
+		<Unit filename="src/libtiff-5.dll" />
+		<Unit filename="src/libwebp-4.dll" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/map.cpp" />
+		<Unit filename="src/map.h" />
+		<Unit filename="src/motion_type.cpp" />
+		<Unit filename="src/motion_type.h" />
+		<Unit filename="src/number_sprite.cpp" />
+		<Unit filename="src/number_sprite.h" />
+		<Unit filename="src/particle.h" />
+		<Unit filename="src/particle_system.cpp" />
+		<Unit filename="src/particle_system.h" />
+		<Unit filename="src/particle_tools.h" />
+		<Unit filename="src/player.cpp" />
+		<Unit filename="src/player.h" />
+		<Unit filename="src/player_health.cpp" />
+		<Unit filename="src/player_walking_animation.cpp" />
+		<Unit filename="src/polar_star.cpp" />
+		<Unit filename="src/polar_star.h" />
+		<Unit filename="src/polar_vector.cpp" />
+		<Unit filename="src/polar_vector.h" />
+		<Unit filename="src/projectile.h" />
+		<Unit filename="src/rand.h" />
+		<Unit filename="src/rectangle.h" />
+		<Unit filename="src/sdlengine.h" />
+		<Unit filename="src/sprite.cpp" />
+		<Unit filename="src/sprite.h" />
+		<Unit filename="src/sprite_state.cpp" />
+		<Unit filename="src/sprite_state.h" />
+		<Unit filename="src/stride_type.cpp" />
+		<Unit filename="src/stride_type.h" />
+		<Unit filename="src/timer.cpp" />
+		<Unit filename="src/timer.h" />
+		<Unit filename="src/units.h" />
+		<Unit filename="src/varying_width_sprite.cpp" />
+		<Unit filename="src/varying_width_sprite.h" />
+		<Unit filename="src/vector.h" />
+		<Unit filename="src/zlib1.dll" />
+		<Unit filename="zlib1.dll" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

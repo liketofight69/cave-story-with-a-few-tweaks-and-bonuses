@@ -1,0 +1,66 @@
+#ifndef MIN_H_
+#define MIN_H_
+
+#include <chrono>
+#include "damageable.h"
+#include "damage_text.h"
+#include "vector.h"
+#include "units.h"
+#include "rectangle.h"
+#include "sprite_state.h"
+#include "polar_star.h"
+#include "Minion.h"
+
+struct Sprite;
+struct Graphics;
+
+struct Min : public Minion{
+Min(Graphics& graphics, Vector<units::Game> pos);
+   ~Min();
+void draw(Graphics& graphics) const;
+
+bool update(const std::chrono::milliseconds elapsed_time,
+           const units::Game player_x);
+
+   const Rectangle getDamageRectangle() const;
+   const Rectangle getCollisionRectangle() const;
+
+   units::HP contactDamage() const;
+   void takeDamage(units::HP damage);
+   void startFire();
+
+
+private:
+   struct SpriteState {
+       SpriteState(HorizontalFacing facing) : facing{facing} {}
+       HorizontalFacing facing;
+   };
+   friend bool operator<(const SpriteState& a, const SpriteState& b) {
+       return a.facing < b.facing;
+   }
+   bool is_gun_up() const;
+
+   void initializeSprites(Graphics& graphics);
+   void initializeSprite(Graphics& graphics, const SpriteState& sprite_state);
+   const SpriteState getSpriteState() const;
+
+   const Vector<units::Game> getCenterPos() const override;
+   const std::shared_ptr<DamageText> getDamageText() const override;
+
+   Vector<units::Game> pos_;
+   const units::Game flight_center_y_;
+   bool alive_;
+   HorizontalFacing horizontal_facing_;
+   VerticalFacing intended_vertical_facing_;
+   PolarStar polar_star_;
+   HorizontalFacing facing_;
+   VerticalFacing vertical_facing;
+   units::Degrees flight_angle_;
+   std::map<SpriteState, std::shared_ptr<Sprite> > sprites_;
+   std::shared_ptr<DamageText> damage_text_;
+
+
+
+
+};
+#endif
